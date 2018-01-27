@@ -93,4 +93,4 @@ while(True):
 	with open("comments_replied_to.txt", "w") as c_file:
 		for comment_id in comments_replied_to:
 			c_file.write(comment_id + "\n")#Log comments replied to
-	time.sleep(600)
+	time.sleep(100)
