@@ -26,6 +26,7 @@ while(True):
 
 	#Creates an alpha reference sheet if none exist
 	#(Alphabetizes the search query for speed)
+	#This can be done manually by running rebuild.py
 	char = "A"
 	if not os.path.isfile("alpha_locale.txt"): #check if the file is here
 		with open("alpha_locale.txt", "w+") as alpha: 
@@ -64,7 +65,6 @@ while(True):
 					#This code can be used if automated replies are activated
 					#Automated replies means the program automatically replies
 					#to all stock tickers, with or without a ! preceding them
-					print("Comment: " + comment.body)
 					currentTags = list(set(parseForTagCommand(comment.body)))#find tags and remove duplicate tags in comment
 					stockObjects = []
 					for tag in currentTags:
@@ -93,4 +93,4 @@ while(True):
 	with open("comments_replied_to.txt", "w") as c_file:
 		for comment_id in comments_replied_to:
 			c_file.write(comment_id + "\n")#Log comments replied to
-	time.sleep(500)
+	time.sleep(600)
