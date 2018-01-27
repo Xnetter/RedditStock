@@ -11,8 +11,8 @@ Move it to the project directory. This is where authorization is done. On Reddit
 after creating a personal script. These are the secret key and the user key.
 ```python
 [bot1]
-client_id=user_key (shorter string of random characters)
-client_secret=secret_key (long string of random characters)
+client_id=user_key (shorter-string of random characters)
+client_secret=secret_key (long-string of random characters)
 password=insert_password
 username=insert_user
 user_agent=PyEng Bot 0.1
@@ -21,7 +21,7 @@ Each can be found under the app information for your new script. Place them acco
 ## How it Works:
 RedditStock looks for ticker symbols preceded by an explanation mark, and returns neatly formatted data to the requesting user 
 in the form of a comment. 
-![alt text](https://imgur.com/vEEB2F6)
+![alt text](screenshots/filename.png "Description goes here")
 
 ###Things to Note:
 This bot runs off of a custom made csv file with NASDAQ and NYSE entries. If you wish to modify the CSV file, you must rebuild the
