@@ -24,7 +24,7 @@ in the form of a comment.
 
 ![alt text](screenshots/Bot.png "Image from Reddit")
 
-###Things to Note:
+### Things to Note:
 This bot runs off of a custom made csv file with NASDAQ and NYSE entries. If you wish to modify the CSV file, you must rebuild the
 alphabetically sorted text file which tells the program where to start looking when given a ticker (when it searches for the company 
 name). You can do this using
