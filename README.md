@@ -21,7 +21,7 @@ Each can be found under the app information for your new script. Place them acco
 ## How it Works:
 RedditStock looks for ticker symbols preceded by an explanation mark, and returns neatly formatted data to the requesting user 
 in the form of a comment. 
-![alt text](screenshots/filename.png "Description goes here")
+![alt text](screenshots/Bot.png "Image from Reddit")
 
 ###Things to Note:
 This bot runs off of a custom made csv file with NASDAQ and NYSE entries. If you wish to modify the CSV file, you must rebuild the
