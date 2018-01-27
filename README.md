@@ -18,6 +18,7 @@ username=insert_user
 user_agent=PyEng Bot 0.1
 ```
 Each can be found under the app information for your new script. Place them accordingly, as shown above. 
+If you don't include a Reddit username and password the bot will not be able to comment.
 ## How it Works:
 RedditStock looks for ticker symbols preceded by an explanation mark, and returns neatly formatted data to the requesting user 
 in the form of a comment.
