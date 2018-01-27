@@ -20,7 +20,8 @@ user_agent=PyEng Bot 0.1
 Each can be found under the app information for your new script. Place them accordingly, as shown above. 
 ## How it Works:
 RedditStock looks for ticker symbols preceded by an explanation mark, and returns neatly formatted data to the requesting user 
-in the form of a comment. 
+in the form of a comment.
+
 ![alt text](screenshots/Bot.png "Image from Reddit")
 
 ###Things to Note:
